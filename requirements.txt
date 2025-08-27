@@ -1,0 +1,13 @@
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+import spacy
+import tensorflow as tf
+from tensorflow.keras.preprocessing.text import one_hot
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras import layers, models
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
+from imblearn.over_sampling import SMOTE
